@@ -120,6 +120,8 @@ tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd; /* Light border for rows */
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 /* Alternate Row Coloring for Better Readability */
