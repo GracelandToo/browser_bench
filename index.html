@@ -14,7 +14,16 @@
     <section id="methodology">
         <h2>Test Methodology</h2>
         <p>
-            This section describes the methodology used to conduct the tests. It includes details about the test environment, tools used, and the procedures followed to ensure accurate and reliable results.
+            <ul>
+                <li>Tests are run in two separate devices.</li>
+                <li>A Xiaomi Mi 11 Lite 5G that is almost exclusively used for these tests.</li>
+                <li>A Samsung S23 that is my daily driver phone.</li>
+                <li>Data is cleared on both browsers before running the tests</li>
+                <li>Background apps are cleared.</li>
+                <li>At least 2 minutes are allowed between each of the tests so thermal throttling isn't an issue.</li>
+                <li>Firefox tracking protection is disabled.</li>
+            </ul>
+
         </p>
     </section>
 
@@ -23,6 +32,87 @@
         <p>
             This section presents the results of the tests conducted. It includes data, charts, and analysis to provide a clear understanding of the outcomes.
         </p>
+        <table>
+            <caption>Speedometer 3.0 - Samsung S23</caption>
+            <thead>
+                <tr>
+                    <th>Device</th>
+                    <th>Run 1</th>
+                    <th>Run 2</th>
+                    <th>Run 3</th>
+                    <th>Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chrome 132</td>
+                    <td>12.1</td>
+                    <td>12.4</td>
+                    <td>12.1</td>
+                    <td>12.2</td>
+                </tr>
+                <tr>
+                    <td>Firefox 135.0</td>
+                    <td>13.7</td>
+                    <td>13.6</td>
+                    <td>13.6</td>
+                    <td>13.6</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <caption>Speedometer 3.0 - Mi 11 Lite 5G</caption>
+            <thead>
+                <tr>
+                    <th>Device</th>
+                    <th>Run 1</th>
+                    <th>Run 2</th>
+                    <th>Run 3</th>
+                    <th>Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chrome 132</td>
+                    <td>7.95</td>
+                    <td>8.17</td>
+                    <td>7.51</td>
+                    <td>7.88</td>
+                </tr>
+                <tr>
+                    <td>Firefox 135.0</td>
+                    <td>6.75</td>
+                    <td>6.63</td>
+                    <td>6.695</td>
+                    <td>6.69</td>
+                </tr>
+            </tbody>
+            <table>
+                <caption class="webxprt">WebXPRT 4.0 - Mi 11 Lite 5G</caption>
+                <thead>
+                    <tr>
+                        <th>Device</th>
+                        <th>Run 1</th>
+                        <th>Run 2</th>
+                        <th>Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chrome 132</td>
+                        <td>104</td>
+                        <td>116</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>Firefox 135.0</td>
+                        <td>120</td>
+                        <td>120</td>
+                        <td>120</td>
+                    </tr>
+                </tbody>
+            </table>
+        </table>
     </section>
 
     <section id="conclusions">

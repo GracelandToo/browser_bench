@@ -80,3 +80,54 @@ section p {
         font-size: 12px;
     }
 }
+
+/* Table Caption Styling */
+caption {
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    text-align: center; /* Centered text */
+    padding: 10px; /* Padding for spacing */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border-radius: 5px 5px 0 0; /* Rounded corners at the top */
+    margin-bottom: -1px; /* Aligns caption with the table border */
+    display: table-caption; /* Ensures proper rendering */
+}
+caption.webxprt {
+    background-color: #00008c; /* Green background color */
+}
+
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes space between cells */
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Row Styling */
+thead th {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    font-weight: bold; /* Bold font */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #444; /* Darker border for separation */
+}
+
+/* Body Rows Styling */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Light border for rows */
+    text-align: left;
+}
+
+/* Alternate Row Coloring for Better Readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+/* Hover Effect on Rows */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+}
